@@ -9,22 +9,21 @@
 /* Typography */
 
 html {
-  /* 62.5% of 16px = 10px */
   font-size: 62.5%;
 }
 
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  color: var(--color-body);
   font-size: 2.4rem;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  color: var(--color-body);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--color-headings);
   margin-bottom: 1rem;
+  color: var(--color-headings);
 }
 
 h1 {
@@ -44,19 +43,19 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    font-size: 1.8rem;
-  }
+}
+body {
+  font-size: 1.8rem;
+}
 
-  h1 {
-    font-size: 8rem;
-  }
-  h2 {
-    font-size: 4rem;
-  }
-  h3 {
-    font-size: 2.4rem;
-  }
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2.4rem;
 }
 
 /* Links */
@@ -66,10 +65,10 @@ a {
 }
 
 .link-arrow {
-  color: var(--color-accent);
-  text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
+  color: var(--color-accent);
+  text-transform: uppercase;
 }
 
 .link-arrow::after {
@@ -83,7 +82,41 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-  .link-arrow {
+}
+.link-arrow {
+  font-size: 1.5rem;
+}
+
+/* Badges */
+
+.badge {
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
     font-size: 1.5rem;
+  }
+
+  .badge--small {
+    font-size: 1.2rem;
   }
 }
