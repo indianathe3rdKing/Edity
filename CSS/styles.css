@@ -33,6 +33,7 @@ h2,
 h3 {
   margin-bottom: 1rem;
   color: var(--color-headings);
+  line-height: 1.1;
 }
 
 h1 {
@@ -225,6 +226,13 @@ a {
   cursor: pointer;
   text-align: center;
   margin: 1rem 0;
+}
+
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
 .btn--primary {
@@ -723,5 +731,30 @@ a {
     width: 40%;
     justify-content: space-between;
     font-size: 1.8rem;
+  }
+}
+
+/* Hero */
+.hero {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.hero__tagline {
+  font-size: 2rem;
+  color: #b9c3cf;
+  letter-spacing: 1px;
+  margin: 2rem 0 5rem;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 0;
+  }
+  .hero__content {
+    text-align: left;
+    align-self: center;
   }
 }
