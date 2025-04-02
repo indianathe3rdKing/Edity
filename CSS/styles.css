@@ -341,7 +341,6 @@ a {
   flex-grow: 1;
   padding: 1.5rem 1rem;
   width: 0;
-  margin-left: 1rem;
 }
 
 .input-group .btn {
@@ -359,7 +358,7 @@ a {
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
-  margin: 4rem;
+  margin: 0.5rem;
   overflow: hidden;
 }
 
