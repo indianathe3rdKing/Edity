@@ -228,7 +228,7 @@ a {
   border: none;
   letter-spacing: 0.2rem;
   border-radius: 5rem;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   cursor: pointer;
   text-align: center;
   margin: 1rem 0;
@@ -237,6 +237,7 @@ a {
 .btn .icon {
   width: 2rem;
   height: 2rem;
+  min-width: 20px;
   margin-right: 1rem;
   vertical-align: middle;
 }
@@ -338,7 +339,9 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem 1 rem;
+  padding: 1.5rem 1rem;
+  width: 0;
+  margin-left: 1rem;
 }
 
 .input-group .btn {
@@ -797,8 +800,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
