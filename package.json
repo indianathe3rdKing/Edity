@@ -1,0 +1,24 @@
+{
+  "name": "edity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indianathe3rdKing/Edity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indianathe3rdKing/Edity/issues"
+  },
+  "homepage": "https://github.com/indianathe3rdKing/Edity#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
